@@ -60,7 +60,7 @@ form button:hover {
     align-items: center;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 660px) {
     .todo-container {
         margin-top: 25%;
     }
@@ -142,8 +142,7 @@ select {
 }
 
 select {
-    color: #ff6f47;
-    width: 10rem;
+    width: 11rem;
     cursor: pointer;
     padding: 1rem;
     background-color: white;
