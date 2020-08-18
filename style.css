@@ -58,7 +58,12 @@ form button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
+}
+
+@media (max-width: 460px) {
+    .todo-container {
+        margin-top: 25%;
+    }
 }
 
 .todo-list {
@@ -141,6 +146,8 @@ select {
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    background-color: white;
+    font-size: 1.1rem;
 }
 
 .select::after {
